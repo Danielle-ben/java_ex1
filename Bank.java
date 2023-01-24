@@ -17,7 +17,7 @@ public class Bank implements IBank {
             }
         }
         if(desiredAccount!=null){
-            if(desiredAccount.GetCurrentBalance()>0) {
+            if(desiredAccount.GetCurrentBalance()>=0) {
                 accList.remove(desiredAccount);
             } else {
                 System.out.println("Account is not closed due to debt");
