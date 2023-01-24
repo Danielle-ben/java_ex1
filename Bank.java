@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Bank implements IBank {
-    List<IAccount> accList;
+    private List<IAccount> accList;
     public Bank() {
         accList = new ArrayList<>();
     }
